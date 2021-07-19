@@ -1,7 +1,7 @@
 #main {
 	/* variables */
-	--content-background: hsl(51, 40%, 96%);
-	--contrast-background: hsl(51, 40%, 87%);
+	--content-background: #92b8bd;
+	--contrast-background: #92b8bd;
 	
 	margin: auto;
 	background-color: var(--content-background, gray);
@@ -29,9 +29,10 @@
 	background-color: var(--content-background, gray);
   }
   
-  #main-content {
-	/* max-width: 600px; */
-	margin: 10px;
+  #tribute-info {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
   }
   
   footer {
@@ -79,3 +80,14 @@
   #tribute-link {
 	color: hsl(220, 57%, 42%);
   }
+
+
+  #img-div{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #051a22;
+	color: white;
+  }
+
+  
